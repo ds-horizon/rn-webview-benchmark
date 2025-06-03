@@ -1,0 +1,15 @@
+appId: org.reactjs.native.example.webviewv13141
+---
+# Simple Bottom Sheet Test
+- repeat:
+    times: 50
+    commands:
+      - launchApp
+      - assertVisible: "Open WebView"
+      - tapOn: "Open WebView"
+      - assertVisible: "React Native"
+
+
+
+
+
