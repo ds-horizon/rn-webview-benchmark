@@ -2,6 +2,6 @@
   "name": "rn-webview-benchmark",
   "packageManager": "yarn@4.6.0",
   "dependencies": {
-    "@d11/marco": "^0.0.10"
+    "@d11/marco": "^0.0.11"
   }
 }
