@@ -47,6 +47,8 @@ These benchmarks were conducted on:
 | Android  | Emulator    | 241.5     | 242.7       |
 | iOS      | Simulator   | 122.0     | 109.5       |
 
+🔗 **Live Benchmark Results:** [Click here](https://dream-sports-labs.github.io/rn-webview-benchmark/)
+
 ### Marco reports for Vivo
 
 <img src="./assets/benchmarks/android/android_real_device_mean.png" alt="web_view_load_time" width="600"/>
