@@ -16,10 +16,10 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.27.1.tgz#a7054dcc145a967dd4dc8fee845a57c1316c9df8"
   integrity sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==
 
-"@d11/marco@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@d11/marco/-/marco-0.0.11.tgz#08db0a01f4377a8c65257fd6c581a329c9bf7f52"
-  integrity sha512-2p1c3NAYg4mpSat26ndxEN8k2gTKouvUrSuIUPdIlcwVqauIXIduZ4KA1jPFoC/jrJ9NDjapM7UFNEb4DG9/2g==
+"@d11/marco@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@d11/marco/-/marco-0.0.12.tgz#caceb64714211f3a5408139032e58a4ec00d692b"
+  integrity sha512-xoXhGIcbsgfVx/D8iPj/HRQ+ZE7zI70ociBAn+EBujWsp1pgiT2viRO7crPF/J1eWn7ocXjhpiexS+9f5EHhKQ==
   dependencies:
     commander "^12.1.0"
     cosmiconfig "^9.0.0"
