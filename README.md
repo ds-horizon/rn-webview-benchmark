@@ -49,6 +49,7 @@ These benchmarks were conducted on:
 
 🔗 **Live Benchmark Results:** [Click here](https://dream-sports-labs.github.io/rn-webview-benchmark/)
 
+
 ### Marco reports for Vivo
 
 <img src="./assets/benchmarks/android/android_real_device_mean.png" alt="web_view_load_time" width="600"/>
@@ -131,6 +132,8 @@ yarn ios
 yarn android
 ```
 
+<img src="./assets/app.gif" alt="App Demo" width="300" />
+
 ---
 
 ## 🧪 Run Benchmark Test
@@ -161,7 +164,6 @@ yarn marco visualize --platform android
 
 This will open up a dashboard where we can select events to analyse data.
 
-```
 
 Move or copy them to the root directory `marco-results/webview_v_13_13_5/` folder for comparison.
 
