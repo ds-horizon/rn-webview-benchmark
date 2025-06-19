@@ -55,11 +55,11 @@ These benchmarks were conducted on:
 
 ## Results
 ### WebView Load Time Comparison
-| Platform | Device Type | v 13.13.5 | v 13.14.1   |
-| -------- | ----------- |-----------|-------------|
-| Android  | Real Device | 145.4     | 154.1       |
-| Android  | Emulator    | 241.5     | 242.7       |
-| iOS      | Simulator   | 122.0     | 109.5       |
+| Platform | Device Type | v 13.13.5    | v 13.14.1    |
+| -------- | ----------- |--------------|--------------|
+| Android  | Real Device | **145.4 ms** | **154.1 ms** |
+| Android  | Emulator    | **241.5 ms** | **242.7 ms** |
+| iOS      | Simulator   | **122.0 ms** | **109.5 ms** |
 
 🔗 **Live Benchmark Results:** [Click here](https://dream-sports-labs.github.io/rn-webview-benchmark/)
 
