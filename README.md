@@ -1,9 +1,23 @@
 ## 📊 React Native WebView Benchmark
 
-#### This repo benchmarks [react-native-webview](https://github.com/react-native-webview/react-native-webview) performance across versions using [Marco](https://marco.dreamsportslabs.com).
+#### This repo benchmarks load time performance of [react-native-webview](https://github.com/react-native-webview/react-native-webview) across webview versions 13.13.5 and 13.14.1.
+
+## Why this Benchmark?
+WebView is widely used in React Native apps to render web content, but its performance can vary across versions and platforms. Understanding these differences helps developers make informed upgrade decisions.
 
 ## Benchmarking Metrics 📊
-- **Load Time**: Time taken to load the webview on button press.
+- **Load Time**: Load time measured from marker_start on button press to marker_end on WebView load finish.
+
+  <img src="./assets/diagram.png" alt="App Demo" width="400" />
+
+- App Demo 
+
+  <img src="./assets/app.gif" alt="App Demo" width="300" />
+
+## Summary of Results
+- Android average load time: ~233 ms
+- iOS average load time: ~116 ms
+
 
 ## About the Benchmarking Process 📝
 
@@ -131,8 +145,6 @@ yarn ios
 ```
 yarn android
 ```
-
-<img src="./assets/app.gif" alt="App Demo" width="300" />
 
 ---
 
