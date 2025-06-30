@@ -1,6 +1,6 @@
 {
   "name": "rn-webview-benchmark",
   "dependencies": {
-    "@d11/marco": "^0.0.12"
+    "@d11/marco": "^0.0.13"
   }
 }
