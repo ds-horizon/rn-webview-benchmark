@@ -23,9 +23,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@d11/marco@npm:^0.0.13":
-  version: 0.0.13
-  resolution: "@d11/marco@npm:0.0.13"
+"@d11/marco@npm:^0.0.14":
+  version: 0.0.14
+  resolution: "@d11/marco@npm:0.0.14"
   dependencies:
     commander: "npm:^12.1.0"
     cosmiconfig: "npm:^9.0.0"
@@ -35,7 +35,7 @@ __metadata:
     react-native: "*"
   bin:
     marco: src/scripts/cli.js
-  checksum: 10c0/b3c52027c5271853d2286f03ab82fc0070c7a147ef47482a413ac9e52e990f48d2e1273f077f80796f4932def9bbe896deda89b1c3bf3a717df4949bf8cbd3b9
+  checksum: 10c0/6c3eefc5b69e0ea1e171d24634316c7eeef5a4c8ac339e12ca06903334465b963efaf566d3dafbf1268574fec4b1dbc327d5e4d8c9c4a96f79cb892fd18a88a1
   languageName: node
   linkType: hard
 
@@ -751,7 +751,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "rn-webview-benchmark@workspace:."
   dependencies:
-    "@d11/marco": "npm:^0.0.13"
+    "@d11/marco": "npm:^0.0.14"
   languageName: unknown
   linkType: soft
 
