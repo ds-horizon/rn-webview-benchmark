@@ -70,6 +70,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: './node_modules/@d11/marco/web/dist'
+          name: github-pages
 
       - name: Deploy to GitHub Pages
         id: deployment
