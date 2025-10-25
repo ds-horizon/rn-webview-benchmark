@@ -42,7 +42,7 @@ These benchmarks were conducted on:
 ## Load Time ⌛
 
 1. **Capture the Initial Event:**
-    - The event is triggered when a button is clicked on app.tsx. ([refer](https://github.com/dream-sports-labs/rn-webview-benchmark/blob/main/apps/webview_v_13_13_5/App.tsx))
+    - The event is triggered when a button is clicked on app.tsx. ([refer](https://github.com/ds-horizon/rn-webview-benchmark/blob/main/apps/webview_v_13_13_5/App.tsx))
     - The `timestamp` is extracted from the `Button.onPress` event object.
     - The `timestamp` and a marker name are passed to the native module `PerformanceTracker.track()` to log the start time.
 
@@ -50,7 +50,7 @@ These benchmarks were conducted on:
     - The load time completes when the initial webview content is fully painted and visible.
     - We wrapped the **webview** with the [**PerformanceTracker**](https://marco.dreamsportslabs.com/api/tracking-screen/) API from the **Marco** library.
     - This accurately captures the **onDraw** event, indicating when the screen is fully rendered.
-    - Code [reference](https://github.com/dream-sports-labs/rn-webview-benchmark/blob/main/apps/webview_v_13_13_5/src/WebComponent.tsx)
+    - Code [reference](https://github.com/ds-horizon/rn-webview-benchmark/blob/main/apps/webview_v_13_13_5/src/WebComponent.tsx)
 
 
 ## Results
@@ -61,7 +61,7 @@ These benchmarks were conducted on:
 | Android  | Emulator    | **241.5 ms** | **242.7 ms** |
 | iOS      | Simulator   | **122.0 ms** | **109.5 ms** |
 
-🔗 **Live Benchmark Results:** [Click here](https://dream-sports-labs.github.io/rn-webview-benchmark/)
+🔗 **Live Benchmark Results:** [Click here](https://ds-horizon.github.io/rn-webview-benchmark/)
 
 
 ### Marco reports for Vivo
@@ -109,7 +109,7 @@ rn-webview-benchmark/
 ### 1. Clone & Install
 
 ```
-git clone https://github.com/dream-sports-labs/rn-webview-benchmark
+git clone https://github.com/ds-horizon/rn-webview-benchmark
 cd rn-webview-benchmark
 yarn install
 ```
